@@ -1,0 +1,222 @@
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card styling */
+.card {
+  border-radius: 12px;
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  box-shadow: 0 0 15px rgba(0,170,255,0.1);
+}
+
+/* Labels */
+label, .form-check-label {
+  color: #e6edf3;
+  font-weight: 500;
+}
+
+/* Inputs and selects */
+.form-control, .form-select {
+  background-color: #0d1117;
+  color: #ffffff;
+  border: 1px solid #00aaff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* When typing or focused */
+.form-control:focus, .form-select:focus {
+  border-color: #00ffaa;
+  box-shadow: 0 0 10px rgba(0,255,170,0.3);
+  background-color: #e7eaf0;
+  color: #fff;
+}
+
+/* Placeholder color fix */
+::placeholder {
+  color: #aaaaaa !important;
+  opacity: 1;
+}
+
+/* Buttons */
+.btn-info {
+  background-color: #00aaff;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-info:hover {
+  background-color: #0088cc;
+}
+
+/* Section headers */
+h4, h2 {
+  color: #00aaff;
+}
+
+/* Checkbox */
+.form-check-input {
+  background-color: #eef0f4;
+  border: 1px solid #00aaff;
+}
+.form-check-input:checked {
+  background-color: #00aaff;
+  border-color: #00ffaa;
+}
+
+/* Highlight for warning text */
+.text-warning {
+  color: #ffcc00 !important;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .card {
+    padding: 15px;
+  }
+}
+
+/* ====== Order Summary Card ====== */
+/* ===== Fix for "Your Order" visibility ===== */
+.summary-card {
+  background-color: #0d1117 !important;
+  border: 1px solid #00aaff !important;
+  border-radius: 12px;
+  color: #ffffff !important;
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.2);
+  padding: 20px;
+}
+
+.summary-card * {
+  color: #ffffff !important; /* ✅ Forces all text inside to be white */
+}
+
+.summary-card h4 {
+  color: #00aaff !important; /* “Your Order” title in bright blue */
+  font-weight: 600;
+}
+
+.summary-card hr {
+  border-color: #00aaff33;
+}
+
+.summary-card .btn {
+  background-color: #00aaff;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  transition: 0.3s;
+}
+
+.summary-card .btn:hover {
+  background-color: #0088cc;
+}
+/* ===== Fix: Your Order visibility ===== */
+.card.bg-dark {
+  background-color: #0d1117 !important;
+  color: #ffffff !important;
+  border: 1px solid #00aaff !important;
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.2);
+}
+
+.card.bg-dark h4 {
+  color: #00aaff !important;
+  font-weight: 600;
+}
+
+.card.bg-dark * {
+  color: #ffffff !important; /* Forces white text inside */
+}
+
+.card.bg-dark hr {
+  border-color: #00aaff33;
+}
+
+.card.bg-dark strong {
+  color: #00aaff !important;
+}
+
+.btn-info {
+  background-color: #00aaff !important;
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #0088cc !important;
+}
+
+/* ====== Fix: Form Field Visibility in Dark Mode ====== */
+.form-control,
+.form-select,
+textarea {
+  background-color: #161b22 !important;
+  color: #ffffff !important;
+  border: 1px solid #00aaff !important;
+  border-radius: 8px;
+}
+
+.form-control::placeholder,
+textarea::placeholder {
+  color: #aaaaaa !important;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+  background-color: #0d1117 !important;
+  color: #ffffff !important;
+  border-color: #00ffaa !important;
+  box-shadow: 0 0 10px #00aaff33;
+}
+
+label.form-label {
+  color: #00aaff !important;
+  font-weight: 500;
+}
+
+.form-check-label {
+  color: #ffffff !important;
+}
+
+option {
+  background-color: #161b22;
+  color: #ffffff;
+}
+
+/* Button styling for consistency */
+.btn-info {
+  background-color: #00aaff !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.btn-info:hover {
+  background-color: #0088cc !important;
+}
+
+/* Improve card look */
+.card.bg-dark {
+  background-color: #0d1117 !important;
+  color: #fff !important;
+  border: 1px solid #00aaff !important;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.2);
+}
+
+.btn-outline-info {
+  color: #00aaff !important;
+  border-color: #00aaff !important;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+.btn-outline-info:hover {
+  background-color: #00aaff !important;
+  color: #fff !important;
+}

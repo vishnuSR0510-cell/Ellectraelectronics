@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart | ElectroMart</title>
+  <link rel="stylesheet" href="assets/css/cart.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="dark-theme">
+<!-- ===== Navbar ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top border-bottom border-secondary">
+  <div class="container">
+    <!-- Logo + Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="assets/image/logo.png" alt="Ellectra Logo" width="40" class="me-2">
+      <span class="fw-bold text-info">Ellectra</span>
+    </a>
+
+    <!-- Toggle button for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">🏠 Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">🛍 Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="order-track.html">📦 Order Track</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html">🛒 Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">👤 Login</a>
+        </li>
+        <li class="nav-item ms-3">
+          <a class="btn btn-outline-info btn-sm" href="index.html">⬅ Back</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container my-4">
+    <h2 class="text-light mb-4">🛒 Your Shopping Cart</h2>
+
+    <div class="row">
+      <!-- Cart Items -->
+      <div class="col-lg-8">
+        <div id="cart-items" class="cart-items"></div>
+      </div>
+
+      <!-- Summary -->
+      <div class="col-lg-4">
+        <div class="summary-card p-3">
+          <h5>Order Summary</h5>
+          <hr>
+          <p id="item-count"></p>
+          <h4>Total: ₹<span id="total-price">0</span></h4>
+          <button class="btn btn-success w-100 mt-3" onclick="goToCheckout()">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+  <!-- ====== Footer Section ====== -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section about">
+      <h3>About Ellectra</h3>
+      <p>Ellectra is your trusted destination for high-quality electronic components,
+         development boards, and maker tools. We empower innovation for students,
+         engineers, and creators.</p>
+    </div>
+
+    <div class="footer-section contact">
+      <h3>Contact Us</h3>
+      <p><strong>Email:</strong> support@ellectra.com</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Address:</strong> 45 Tech Park Road, Bangalore, India</p>
+    </div>
+
+    <div class="footer-section team">
+      <h3>Our Team</h3>
+      <ul>
+        <li>Iyyapan – Founder & Developer</li>
+        <li>Santha Kumar  – Design Lead</li>
+        <li>Vishnu – Marketing Head</li>
+        <li>Elangovan – Customer Support</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Ellectra Electronics. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/cart.js"></script
+</body>
+</html>

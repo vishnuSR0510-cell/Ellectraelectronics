@@ -1,0 +1,67 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+.receipt-card {
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 25px rgba(0, 170, 255, 0.2);
+  animation: fadeIn 0.8s ease;
+}
+
+hr {
+  border-color: #2b2f36;
+}
+
+.btn-info {
+  background-color: #00aaff;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-info:hover {
+  background-color: #0088cc;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.order-summary-item {
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 10px;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #e6edf3; /* make all text visible */
+}
+
+.order-summary-item strong {
+  color: #00aaff; /* highlight product name */
+}
+
+.order-summary-item small {
+  color: #c9d1d9 !important; /* make (x1) visible */
+}
+
+.order-summary-item .price {
+  color: #00ffaa;
+  font-weight: 600;
+}
+
+.total-text {
+  color: #00ffaa;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

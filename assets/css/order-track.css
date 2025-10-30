@@ -1,0 +1,38 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  box-shadow: 0px 0px 15px rgb(246, 246, 246);
+  border-radius: 10px;
+}
+
+.status-box {
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.status-process {
+  background-color: rgba(0, 255, 255, 0.1);
+  color: #00e1ff;
+}
+
+.status-cancelled {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #ff4d4d;
+}
+
+.status-delivered {
+  background-color: rgba(0, 255, 100, 0.1);
+  color: #00ff84;
+}
+
+.card strong, 
+.card small, 
+.card span, 
+.card p {
+  color: #e6edf3 !important;
+}

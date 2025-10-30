@@ -1,0 +1,180 @@
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Navbar Custom Styling ===== */
+.navbar {
+  background-color: #0d1117 !important;
+  border-bottom: 1px solid #21262d;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(0 0 3px rgba(0, 170, 255, 0.5));
+}
+
+.navbar .nav-link {
+  color: #c9d1d9 !important;
+  font-weight: 500;
+  margin-left: 15px;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #00aaff !important;
+}
+
+.navbar .text-info {
+  color: #00aaff !important;
+}
+
+/* ===== Category Cards ===== */
+.category-card {
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0,170,255,0.2);
+}
+
+.category-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.category-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.btn-view {
+  background-color: #00aaff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 18px;
+}
+
+.btn-view:hover {
+  background-color: #0088cc;
+}
+
+/* ====== Footer Styles ====== */
+.footer {
+  background-color: #161b22;
+  color: #c9d1d9;
+  padding: 60px 20px 25px;
+  border-top: 1px solid #21262d;
+  font-size: 0.95rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  color: #00aaff;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.footer-section p,
+.footer-section li {
+  color: #b2b9c1;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li::before {
+  content: "• ";
+  color: #00aaff;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #21262d;
+  margin-top: 40px;
+  padding-top: 15px;
+  color: #8b949e;
+  font-size: 0.9rem;
+}
+
+/* ===== Responsive Footer ===== */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+  .footer-section h3 {
+    margin-top: 15px;
+  }
+}
+
+/*search*/
+.search-container {
+  text-align: center;
+}
+
+#searchInput {
+  background-color: white;
+  border: 1px solid #00aaff;
+  color: black;  /* ✅ visible text */
+  padding: 10px 15px;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.3s;
+}
+
+
+#searchInput:focus {
+  border-color: #00ffaa;
+  box-shadow: 0 0 10px #00ffaa33;
+}
+
+/* ===== Search Results ===== */
+#search-results .result-card {
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  color: #e6edf3;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+#search-results .result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0,170,255,0.2);
+}
+
+#search-results img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
