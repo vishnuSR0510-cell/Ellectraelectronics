@@ -11,7 +11,7 @@ const products = {
     { code: "001", name: "Arduino Nano", price: 225, img: "assets/image/Microcontroller/001.png" },
     { code: "002", name: "Arduino Uno SMD CH340 (compatible)", price: 230, img: "assets/image/Microcontroller/002.png" },
     { code: "003", name: "Arduino UNO R3 DIP (compatible)", price: 400, img: "assets/image/Microcontroller/003.png" },
-    { code: "004", name: "STM32F103 Bluepill", price: 185, img:"assets/image/Microcontroller/004.png" },
+    { code: "004", name: "STM32F103 Bluepill", price: 185, img:"assets/image/Microcontroller/code4.jpg" },
     { code: "005", name: "Arduino Mega CP2102", price: 1300, img:"assets/image/Microcontroller/005.png" },
     { code: "006", name: "Raspberry Pi Pico H", price: 450, img: "images/micro/pico-h.jpg" },
     { code: "007", name: "Raspberry Pi Pico W (WiFi)", price: 550, img: "images/micro/pico-w.jpg" },
