@@ -3,7 +3,7 @@
 // ===============================
 const categories = [
   { name: "Microcontrollers", img: "assets/image/shoppic/microconnector.jpg" },
-  { name: "Sensors Modules", img: "assets/image/shoppic/sensor.jpg" },
+  { name: "Sensors Modules", img: "assets/image/shoppic/sensors.jpg" },
   { name: "Motors", img: "assets/image/shoppic/motor.jpg" },
   { name: "Meters & Measurement Modules", img: "assets/image/shoppic/meter.jpg" },
   { name: "Relay Modules", img: "assets/image/shoppic/relay.jpg" },
@@ -16,7 +16,7 @@ const categories = [
   { name: "Transistors", img: "assets/image/shoppic/pic1.png" },
   { name: "IC Chips", img: "assets/image/shoppic/ic.jpg" },
   { name: "Wires & Cables", img: "assets/image/shoppic/pic1.png" },
-  { name: "Connectors", img: "assets/image/shoppic/connect.jpg" },
+  { name: "Connectors", img: "assets/image/shoppic/connects.jpg" },
   { name: "Solar Panel", img: "assets/image/shoppic/solar.jpg" },
   { name: "Switches", img: "assets/image/shoppic/Switch.jpg" },
   { name: "LEDs", img: "assets/image/shoppic/pic1.png" },
